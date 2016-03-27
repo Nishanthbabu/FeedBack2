@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FeedBack2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+</resources>

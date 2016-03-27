@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/thumbnail_height"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="FeedBack Form Patent Food Service"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:textAlignment="inherit"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Please fill the form accurately as possible keeping in mind the patent's experience withfood serevice in room, your feedback is very important for quality improvement and is confidential and will not alter or affect your care from any department at PEOPLE TREE Hospitals."
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="OK LET'S START GIVING FEEDBACK"
+            android:id="@+id/button" />
+    </LinearLayout>
+</ScrollView>
